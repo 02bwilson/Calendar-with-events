@@ -21,15 +21,15 @@ protected:
 public: 
 
 	
-	string getId();
+	virtual string getId();
 
-	string getTitle();
+	virtual string getTitle();
 
-	string toString();
+	virtual string toString();
 
-	void setId(string idSet);
+	virtual void setId(string idSet);
 
-	void setTitle(string titleSet);
+	virtual void setTitle(string titleSet);
 
 
 

@@ -6,8 +6,12 @@
 class Calendar {
 private: 
 	Event** events; 
-	int eventCount; 
+	int eventCount;
+
 public: 
+	Calendar();
+
+
 	// This operation returns true if the event is successfully added to the collection. False will
 	// be returned if there is already an event in the collection with the same id.
 	//
@@ -22,6 +26,7 @@ public:
 	// The parameter eventCount is updated with the number of events in the list.
 	//
 	Event** findEventsByKeyword(string keyword, int& eventCount);
+
 };
 
 

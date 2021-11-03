@@ -13,9 +13,9 @@ private:
 	Contact** attendees; 
 public: 
 	Meeting(string idSet, DateTime dateSet, string titleSet, string locationSet, Contact** contacts);
-	
+	string toString();
 	string getLocation();
-	Contact getContacts();
+	Contact** getContacts();
 };
 
 

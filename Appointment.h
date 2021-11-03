@@ -8,11 +8,14 @@ using namespace std;
 
 class Appointment : public Event {
 private: 
-	string date;
+	string dateStr;
 	Contact* person; 
 
 public: 
 	Appointment(string idSet, DateTime dateSet, string titleSet, Contact* contact);
+
+	
+	string toString();
 };
 
 

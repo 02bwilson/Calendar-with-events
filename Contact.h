@@ -10,9 +10,9 @@ private:
 	string name; 
 	string phoneNum;
 
-	Contact(string nameIn, string phoneNumIn);
 
 public: 
+	Contact(string nameIn, string phoneNumIn);
 	string getName();
 	string getPhoneNum();
 

@@ -20,3 +20,8 @@ void Contact::setPhone(string phoneIn) {
 string Contact::toString() {
 	return "Name: " + name + " Phone Num: " + phoneNum;
 }
+
+Contact::Contact(string nameIn, string phoneNumIn) {
+	name = nameIn;
+	phoneNum = phoneNumIn;
+}
